@@ -31,6 +31,8 @@ class SettingActivity extends AppCompatActivity {
     private StorageReference storageProfilePictureRef;
     private String checker ="";
 
+    //ON CREATE fUNCTION
+
     @Override
     protected
     void onCreate(Bundle savedInstanceState) {
