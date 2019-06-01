@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "671742182959",
+    "firebase_url": "https://sellingbuyerapp.firebaseio.com",
+    "project_id": "sellingbuyerapp",
+    "storage_bucket": "sellingbuyerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671742182959:android:ddd4c2f080ea4ecf",
+        "android_client_info": {
+          "package_name": "com.gohool.sellerbuyerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671742182959-60ujlkevmjfmvuoubk9gkrrtaa747eq0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gohool.sellerbuyerapp",
+            "certificate_hash": "32b00a29ade037d39e898b0a1dbf16e55e3b1100"
+          }
+        },
+        {
+          "client_id": "671742182959-ercdlkc3ve6a79a4at5l0nhukrnfarc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR714GkphQ1g_Pq85z1HA-nnp9SS5LrXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671742182959-ercdlkc3ve6a79a4at5l0nhukrnfarc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

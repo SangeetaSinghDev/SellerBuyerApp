@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/add_new_product"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout"
+        android:layout_width="391dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slogan_category"
+        app:layout_constraintVertical_bias="0.054">
+
+
+        <ImageView
+            android:id="@+id/t_shirts"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/tshirt" />
+
+        <ImageView
+            android:id="@+id/sports_t_shirts"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:contentDescription="@string/todo2"
+            android:src="@drawable/shirt" />
+
+        <ImageView
+            android:id="@+id/female_dress"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:contentDescription="@string/todo3"
+            android:src="@drawable/female_dress" />
+
+        <ImageView
+            android:id="@+id/sweaters"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/coat" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout2"
+        android:layout_width="391dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear_category_layout"
+        app:layout_constraintVertical_bias="0.054">
+
+
+        <ImageView
+            android:id="@+id/glasses"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/glasses" />
+
+        <ImageView
+            android:id="@+id/Bags_wallets_purse"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:contentDescription="@string/todo2"
+            android:src="@drawable/female_bag" />
+
+        <ImageView
+            android:id="@+id/shoe_sandals"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/todo3"
+            android:src="@drawable/shoe" />
+
+        <ImageView
+            android:id="@+id/hats_caps"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/hat" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout3"
+        android:layout_width="391dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear_category_layout2"
+        app:layout_constraintVertical_bias="0.054">
+
+
+        <ImageView
+            android:id="@+id/watches"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/watch" />
+
+        <ImageView
+            android:id="@+id/mobile_phones"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/todo2"
+            android:src="@drawable/mobiles" />
+
+        <ImageView
+            android:id="@+id/laptops_mini_laptops"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:contentDescription="@string/todo3"
+            android:src="@drawable/laptop" />
+
+        <ImageView
+            android:id="@+id/headphones_earphones"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/headphones" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
